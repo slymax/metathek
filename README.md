@@ -1,0 +1,1 @@
+[Metathek](https://slymax.com/metathek/) is based on [MediathekDirekt](https://gitlab.com/mediathekdirekt/mediathekdirekt) by Markus Koschany and released under the [GNU Affero General Public License](https://www.gnu.org/licenses/agpl.html).

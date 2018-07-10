@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Metathek</title>
+  <meta name="description" content="Durchsuche die Mediatheken aller öffentlich-rechtlichen Fernsehsender. Ohne Flash und ohne Werbung.">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/milligram/1.1.0/milligram.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="message">
+    <strong>Hinweis:</strong> Die Datenbank wird seit 05.06.2017 nicht mehr aktualisiert.
+  </div>
+  <div class="hero">
+    <a href="https://slymax.com/metathek/"><h1>META<span>THEK</span></h1></a>
+    <h2>Durchsuche die Mediatheken aller öffentlich-rechtlichen <br> Fernsehsender. Ohne Flash und ohne Werbung.</h2>
+  </div>
+  <video id="video" width="960" height="540"></video>
+  <div class="content">
+    <table id="metathek">
+        <thead>
+            <tr>
+                <th>Sender</th>
+                <th>Titel</th><th></th>
+                <th>Datum</th>
+                <th>Dauer</th><th></th>
+                <th></th><th></th>
+            </tr>
+        </thead>
+    </table>
+  </div>
+  <a class="afterglow" id="afterglow" href="#video"></a>
+  <div class="footer">
+		<a href="https://slymax.com/">
+			<img src="img/footer.png" alt="slymax">
+			<div>A <strong>SLYMAX</strong> PROJECT</div>
+		</a>
+	</div>
+  <script src="//cdn.jsdelivr.net/g/jquery@1.11.2,jquery.datatables@1.10.4,afterglow@0.3.0"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
